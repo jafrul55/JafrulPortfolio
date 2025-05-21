@@ -66,7 +66,7 @@ document.getElementById("downloadBtn").addEventListener("click", function () {
   const link = document.createElement("a");
   // Set the file path of your resume (this should be relative or absolute URL)
   // Make sure resume.pdf is in the same directory or set the correct path
-  link.href = "./Media/Udvash Portfolio.docx.pdf";
+  link.href = "./Media/Udvash Portfolio.pdf";
   // Set the download attribute with a desired filename
   link.download = "Jafrul Alam Tusar.pdf";
   // Append the link to the body
